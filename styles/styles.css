@@ -5,6 +5,8 @@ body
 
 h1 
 {
+    font-size: 100px;
+    font-style: oblique;
     text-align: center;
     border-top-style: double;
     color: black;
@@ -16,6 +18,7 @@ h1
 
 h2
 {
+    background-color: lightslategray;
     text-indent: 25px;
     text-align: right;
     text-decoration: underline overline wavy;
