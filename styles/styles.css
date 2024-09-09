@@ -5,6 +5,7 @@ body
 
 h1 
 {
+    text-align: center;
     border-top-style: double;
     color: black;
     border-style: dashed;
@@ -16,6 +17,7 @@ h1
 h2
 {
     text-indent: 25px;
+    text-align: right;
     text-decoration: underline overline wavy;
 }
 
@@ -39,6 +41,9 @@ img
 {
     filter: grayscale(100%);
     -webkit-box-reflect: right 0px linear-gradient(to right, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6));
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #blur
@@ -47,4 +52,5 @@ img
     -webkit-box-reflect: left 0px linear-gradient(to left, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.6));
     filter: blur(5px);
     filter: invert(100%);
+    image-rendering: pixelated;
 }
